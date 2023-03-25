@@ -1,6 +1,6 @@
 {
   "name": "superstring",
-  "version": "2.4.4",
+  "version": "2.4.5",
   "description": "A data structure to efficiently represent the results of applying patches.",
   "main": "./index",
   "browser": "./browser",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/superstring.git"
+    "url": "https://github.com/Alex313031/superstring-ng.git"
   },
   "keywords": [
     "text",
@@ -27,18 +27,18 @@
   "author": "Nathan Sobo <nathan@github.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/superstring/issues"
+    "url": "https://github.com/Alex313031/superstring-ng/issues"
   },
-  "homepage": "https://github.com/atom/superstring",
+  "homepage": "https://github.com/Alex313031/superstring-ng",
   "dependencies": {
     "nan": "^2.14.2"
   },
   "devDependencies": {
-    "chai": "^2.0.0",
+    "chai": "^2.3.0",
     "cross-env": "^7.0.3",
-    "mocha": "^2.3.4",
-    "random-seed": "^0.2.0",
-    "standard": "^4.5.4",
+    "mocha": "^3.5.3",
+    "random-seed": "^0.3.0",
+    "standard": "^5.4.1",
     "temp": "^0.8.3",
     "unzip": "^0.1.11"
   },
