@@ -52,5 +52,6 @@ switch (args[0]) {
 }
 
 function run(command, args = [], options = {stdio: 'inherit'}) {
-  spawnSync(command, args, options)
+  const {status} = spawnSync(command, args, options)
+  if (status !== 0) process.exit(status)
 }

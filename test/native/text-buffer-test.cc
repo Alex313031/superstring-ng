@@ -4,6 +4,7 @@
 #include "text-slice.h"
 #include "regex.h"
 #include <future>
+#include <unistd.h>
 #include <chrono>
 #include <thread>
 
