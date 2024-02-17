@@ -1,6 +1,6 @@
 {
   "name": "superstring",
-  "version": "2.4.6",
+  "version": "2.4.7",
   "description": "A data structure to efficiently represent the results of applying patches.",
   "main": "./index",
   "browser": "./browser",
@@ -24,7 +24,7 @@
     "text",
     "data-structure"
   ],
-  "author": "Nathan Sobo <nathan@github.com>",
+  "author": "Alex313031 <Alex313031@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Alex313031/superstring-ng/issues"
