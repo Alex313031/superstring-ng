@@ -80,6 +80,9 @@
                 "target_name": "tests",
                 "type": "executable",
                 "cflags_cc!": ["-fno-exceptions"],
+                "defines": [
+                    "CATCH_CONFIG_CPP11_NO_IS_ENUM"
+                ],
                 "sources": [
                     "vendor/catch_amalgamated.cpp",
                     "test/native/test-helpers.cc",

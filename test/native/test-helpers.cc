@@ -2,7 +2,7 @@
 #include "patch.h"
 #include "range.h"
 #include "text-buffer.h"
-#include <catch_amalgamated.hpp>
+#include <catch.hpp>
 #include <cstring>
 #include <memory>
 #include <ostream>
